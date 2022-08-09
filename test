@@ -1,0 +1,27 @@
+#include<stdio.h>
+void main()
+{
+int n,ocount=0,ecount=0,sum=0,r;
+printf("enter the number");
+scanf("%d",&n);
+while(n>0)
+{
+r=n%10;
+sum=sum*10+r;
+n=n/10;
+if(n%2==0)
+ecount=ecount+1;
+else
+ocount=ocount+1;	
+	}	
+	if(ecount==ocount)
+	printf("FANCY NUMBER");
+	else
+	printf("NON FANCY NUMBER");
+}
+
+output1:
+enter the number123456
+FANCY NUMBER
+--------------------------------
+Process exited a
