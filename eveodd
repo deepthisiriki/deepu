@@ -1,0 +1,40 @@
+#include<stdio.h>
+void main()
+{
+int n,ocount=0,ecount=0,sum=0,r;
+printf("enter the number");
+scanf("%d",&n);
+while(n>0)
+{
+r=n%10;
+sum=sum*10+r;
+n=n/10;
+if(n%2==0)
+ecount=ecount+1;
+else
+ocount=ocount+1;	
+	}	
+	if(ecount==ocount)
+	printf("FANCY NUMBER");
+	else
+	printf("NON FANCY NUMBER");
+}
+output 1:
+enter the number123456
+FANCY NUMBER
+--------------------------------
+Process exited after 3.581 seconds with return value 12
+Press any key to continue . . .
+
+
+output2:
+enter the number123
+NON FANCY NUMBER
+--------------------------------
+Process exited after 2.28 seconds with return value 16
+Press any key to continue . . .
+
+
+
+
+
