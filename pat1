@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+char ch='A';
+int n,i,j;
+printf("enter n");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+printf("\n");
+for(j=1;j<=i;j++)
+{
+printf("%2c",ch);
+ch++;	
+}}
+return 0;	
+}
+
+output:
+enter n5
+
+ A
+ B C
+ D E F
+ G H I J
+ K L M N O
+--------------------------------
+Process exited after 2.44 seconds with return value 0
+Press any key to continue . . .
+
+
+
+
