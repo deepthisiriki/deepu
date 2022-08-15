@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+    int n;
+    int start,size,end;
+    scanf("%d",&n);
+    size=(n*2)-1;
+    start=0;
+    end=size-1;
+    int a[size][size];
+    while(n!=0)
+    {
+    for(int i=start;i<=end;i++)
+    {
+    for(int j=start;j<=end;j++)
+    {
+    if(i==start||j==start||i==end||j==end)
+    {
+    a[i][j]=n; 
+    }   
+    }    
+    }
+    start++;
+    end--;
+    n--;
+    }
+    for(int i=0;i<size;i++)
+    {
+    for(int j=0;j<size;j++)
+    {
+     printf("%d ",a[i][j]);   
+    }    
+    printf("\n");
+    }
+    return 0;
+}
+output 1:
+2
+2 2 2
+2 1 2
+2 2 2
+
+--------------------------------
+Process exited after 1.812 seconds with return value 0
+Press any key to continue . . .
+
+
+output 2:
+5
+5 5 5 5 5 5 5 5 5
+5 4 4 4 4 4 4 4 5
+5 4 3 3 3 3 3 4 5
+5 4 3 2 2 2 3 4 5
+5 4 3 2 1 2 3 4 5
+5 4 3 2 2 2 3 4 5
+5 4 3 3 3 3 3 4 5
+5 4 4 4 4 4 4 4 5
+5 5 5 5 5 5 5 5 5
+
+--------------------------------
+Process exited after 2.075 seconds with return value 0
+Press any key to continue . . .
+
