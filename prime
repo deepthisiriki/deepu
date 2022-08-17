@@ -1,0 +1,45 @@
+#include<stdio.h>
+void main()
+{
+int i,a[90],n,flag,j,b;
+printf("enter the size");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("the prime numbers are:");
+for(i=0;i<n;i++)
+{
+	b=a[i];
+flag=0;
+	for(j=2;j<b;j++)
+	{
+	if(b%j==0)	
+	{
+	flag=1;
+	break;	
+	}}	
+	if(flag==0)
+		{
+			printf("%d\t",b);
+		}
+	}
+}
+
+output:
+enter the size5
+2
+4
+3
+5
+7
+the prime numbers are: 2     3       5       7
+--------------------------------
+Process exited after 6.374 seconds with return value 5
+Press any key to continue . . .
+
+
+
+
+
