@@ -1,0 +1,15 @@
+p=int(input('enter principal amount'))
+t=int(input('enter time period'))
+r=int(input('enter rate of interest'))
+si=p*t*r/100
+print('SIMPLE INTEREST:',si)
+emi=(p+si)/(t*12)
+print('EMI',emi)
+
+
+Output:
+enter principal amount120000
+enter time period2
+enter rate of interest12000
+SIMPLE INTEREST: 28800000.0
+EMI 1205000.0
