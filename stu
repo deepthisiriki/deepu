@@ -1,0 +1,23 @@
+sno=int(input('enter student number'))
+name=input('enter student name')
+gender=input('enter student gender')
+grp=input('enter student group')
+add=input('enter student address')
+ph=int(input('enter student phone number'))
+print('STUDENT NUMBER',sno)
+print('NAME',name)
+print('GENDER',gender)
+print('GROUP',grp)
+print('ADDRESS',add)
+print('PHONE NUMBER',ph)        
+        
+        
+        
+        
+Output:
+enter student number21123456
+enter student nameDEEPTHI SIRIKI
+enter student genderfemale
+enter student groupmaircs
+enter student addressnad
+enter student phone number6309889089
