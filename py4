@@ -1,0 +1,9 @@
+a=float(input('enter a value'))
+b=float(input('enter b value'))
+c=a/b
+print(c)
+
+Output:
+enter a value12
+enter b value678
+0.017699115044247787
