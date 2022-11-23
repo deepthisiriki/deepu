@@ -1,0 +1,6 @@
+n=int(input('enter n value'))
+print('even')if(n%2==0)else print('odd')
+
+output:
+enter n value 12
+even
