@@ -1,0 +1,7 @@
+n=int(input('enter n value'))
+print('postive')if(n>0)else print('negative')
+
+
+output:
+enter n value 12
+postive
