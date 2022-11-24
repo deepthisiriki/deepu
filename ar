@@ -1,0 +1,21 @@
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+c=a+b
+d=a*b
+e=a-b
+f=a/b
+g=a%b
+print('addition=',c)
+print('multiplication=',d)
+print('subtraction=',e)
+print('division=',f)
+print('modulo division=',g)
+
+output:
+enter a value33
+enter b value9
+addition= 42
+multiplication= 297
+subtraction= 24
+division= 3.6666666666666665
+modulo division= 6
