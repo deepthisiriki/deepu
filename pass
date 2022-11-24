@@ -1,0 +1,29 @@
+stno=int(input('enter student number'))
+name=input('enter student name')
+grp=input('enter student group')
+s1=int(input('enter s1 marks'))
+s2=int(input('enter s2 marks'))
+s3=int(input('enter s3 marks'))
+print('STUDENT NUMBER:',stno)
+print('NAME:',name)
+print('GROUP:',grp)
+print('MATHS MARKS:',s1)
+print('DBMS MARKS:',s2)
+print('EXPERT SYSTEMS MARKS:',s3)
+print('PASS')if(s1>=35 and s2>=35 and s3>=35)else print('FAIL')
+
+output:
+
+enter student number0162
+enter student nameharsha
+enter student groupmaircs
+enter s1 marks35
+enter s2 marks99
+enter s3 marks80
+STUDENT NUMBER: 162
+NAME: harsha
+GROUP: maircs
+MATHS MARKS: 35
+DBMS MARKS: 99
+EXPERT SYSTEMS MARKS: 80
+PASS
