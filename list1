@@ -1,0 +1,9 @@
+list1=[1,2,5,6]
+i=int(input('enter value'))
+print('exists')if(i in list1)else print('not exsits')
+
+
+OUTPUT:
+enter value2
+exists
+
