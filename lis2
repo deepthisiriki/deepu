@@ -1,0 +1,10 @@
+list=[99,89,77,8,6]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print('minimum element:',min)        
+        
+    
+OUTPUT:
+minimum element: 6
