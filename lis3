@@ -1,0 +1,11 @@
+list=[22,89,70,67,53,24,32,12,4,6,9,2]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+print('sum of all even elements in the list:',sum)        
+
+
+OUTPUT:
+sum of all even elements in the list: 172
+
