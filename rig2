@@ -1,0 +1,25 @@
+n=int(input('enter n value'))
+print(n>>1)
+print(n>>2)
+print(n>>3)
+print(n>>4)
+print(n>>5)
+print(n>>6)
+print(n>>7)
+print(n>>8)
+print(n>>9)
+print(n>>10)
+
+      
+OUTPUT:
+enter n value340
+170
+85
+42
+21
+10
+5
+2
+1
+0
+0
