@@ -1,0 +1,16 @@
+debitpin=5672
+pin=int(input('enter debit card pin'))
+if(debitpin==pin):
+    print('continue transaction')
+else:
+    print('incorrect pin number')
+    print('please enter correct pin number')
+
+  OUTPUT:
+  
+enter debit card pin5672
+continue transaction
+OUTPUT2:
+enter debit card pin234
+incorrect pin number
+please enter correct pin number
