@@ -1,0 +1,43 @@
+empno=int(input('enter empolyee number'))
+empname=input('enter empolyee name')
+bassal=int(input('enter basic salary'))
+da=int(input('enter daily allowance'))
+ta=int(input('enter travel allowance'))
+hra=int(input('enter house rental'))
+print('EMPOLYEE NUMBER',empno)
+print('EMPLOYEE NAME',empname)
+print('BASIC SALARY',bassal)
+print('DAILY ALLOWANCE',da)
+print('TRAVEL ALLOWANCE',ta)
+print('HOUSE RENTAL',hra)
+netsal=bassal+da+ta+hra
+print('NETSAL:',netsal)
+if netsal>100000:
+    tax=netsal*10/100
+elif netsal>50000:
+    tax=netsal*7/100
+elif netsal>40000:
+    tax=netsal*4/100
+elif netsal>20000:
+    tax=netsal*2/100
+else:
+    tax=0
+print('tax:',tax)    
+    
+
+
+OUTPUT:
+enter empolyee number456
+enter empolyee nameHARSHA
+enter basic salary89000
+enter daily allowance800
+enter travel allowance500
+enter house rental7000
+EMPOLYEE NUMBER 456
+EMPLOYEE NAME HARSHA
+BASIC SALARY 89000
+DAILY ALLOWANCE 800
+TRAVEL ALLOWANCE 500
+HOUSE RENTAL 7000
+NETSAL: 97300
+tax: 6811.0
