@@ -1,0 +1,9 @@
+year=int(input())
+if(year%4==0):
+return true;
+else:
+return false;
+
+output:
+2020
+true
