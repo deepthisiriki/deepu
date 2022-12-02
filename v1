@@ -1,0 +1,43 @@
+way1:
+def vote(age):
+    if(age>=18):
+        print('eligible for vote')
+    else:
+     print('not eligible for vote')
+age=int(input('enter age of person'))
+vote(age)
+
+output:
+enter age of person22
+eligible for vote
+
+way2:
+def vote(a):
+    if(a>=18):
+        return 'eligible for vote'
+    else:
+        return 'not eligible for vote'
+age=int(input('enter the person age'))
+print(vote(age))
+
+output:
+enter the person age55
+eligible for vote
+
+way3:
+def vote(age):
+    if(age>=18):
+        return 'true'
+    else:
+        return 'false'
+age=int(input('enter the person age'))
+if(vote(age)=='true'):
+    print('eligible for vote')
+else:
+    print('not eligible for vote')
+output:
+enter the person age12
+not eligible for vote
+
+        
+        
