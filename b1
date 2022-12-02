@@ -1,0 +1,46 @@
+way 1:
+def big(n1,n2):
+    print('n1 is big') if(n1>n2)else print('n2 is big')
+n1=int(input('enter n1 value'))
+n2=int(input('enter n2 value'))
+big(n1,n2)
+output:
+enter n1 value22
+enter n2 value56
+n2 is big
+
+way2:
+def big(n1,n2):
+    if(n1>n2):
+        return 'n1 is big'
+    else:
+        return 'n2 is big'
+a=int(input())
+b=int(input())
+print(big(a,b))
+
+output:
+22
+89
+n2 is big
+
+way3:
+def big(n1,n2):
+    if n1>n2:
+        return 'true'
+    else:
+        return 'false'
+n1=int(input('enter n1 value'))
+n2=int(input('enter n2 value'))
+if(big(n1,n2)=='true'):
+    print('n1 is big')
+else:
+    print('n2 is big')
+
+output:
+enter n1 value22
+enter n2 value1
+n1 is big
+
+    
+
