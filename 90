@@ -1,0 +1,12 @@
+n=int(input('enter any number'))
+t=n
+rev=0
+while(n!=0):
+    r=n%10
+    rev=rev*10+r
+    n=n//10
+print('the reverse of given number',t,'is',rev)    
+    
+output:
+enter any number123456
+the reverse of given number 123456 is 654321
