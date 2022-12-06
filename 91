@@ -1,0 +1,14 @@
+n=int(input('enter any number'))
+t=n
+rev=0
+while(n!=0):
+    r=n%10
+    rev=rev*10+r
+    n=n//10
+if(t==rev):
+    print(rev,'is plandrome number')
+else:
+    print(rev,'not a plandrome number')
+output:
+enter any number2002
+2002 is plandrome number
